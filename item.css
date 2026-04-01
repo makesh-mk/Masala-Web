@@ -66,14 +66,22 @@ section {
 #About img {
   height: 380px;
   margin-left: 10px;
+  margin-top: 30px;
 }
 #About {
-  height: 100vh;
+  height: 103vh;
   width: 100%;
   background-color: gray;
 }
 
-@media (480px <= width <=760px) {
+
+
+ #Product #box{
+    position: relative;
+    left: -80px;
+ }
+
+@media (378px <= width <=760px) {
   #home-image {
     width: 400px;
   }
@@ -81,6 +89,31 @@ section {
   #btn-top {
     display: none;
   }
+
+  #list{
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+  }
+
+ #About img {
+  height: 280px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+ 
+ #About p{
+    font-size: 12px;
+ }
+
+  #box div{
+    padding-bottom: 26px;
+  }
+
+ #box div p{
+  font-size: 12px;
+ }
+
 }
 
 .card:hover {
@@ -109,12 +142,7 @@ section {
   transition: all 0.2s linear;
 }
 
-/* #show-box{
-             animation: animate linear !important;
-             animation-timeline: view();
-             animation-range: entry 0;
-        } */
-
+ 
 .a {
   text-decoration: none;
   color: white;
